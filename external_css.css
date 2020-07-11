@@ -1,0 +1,50 @@
+p{
+  background-color: #addaaa;
+  border: #123456 3px dashed;
+}
+
+h1{
+  border: #dad156 double 5px;
+}
+
+/* .classname{properties: value} */
+
+.p1{
+  background-color: #325632;
+  font-size: 16;
+  font-weight: bold;
+  font-family: MiZTiX;
+  font-size: 2em;
+}
+
+.p2{
+  background-color: #aaaaaa;
+  border-top: 6px double cyan;
+  font-size: 20px;
+}
+
+/* #id_name{properties:value;} */
+#alpha{
+  background-color: #dddddd;
+  border-bottom: 16px double cyan;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+div p{
+  font-size: 1.6em;
+  font-style: italic;
+  font-family: consolas;
+  background-color: #808080;
+}
+
+div h1{
+  font: monospace italic bold;
+  background-color: #234678;
+  border-radius: 20px;
+}
+
+img{
+  border: 10px green double;
+  border-radius: 300px;
+}
