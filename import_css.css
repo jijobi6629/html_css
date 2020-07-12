@@ -1,0 +1,25 @@
+p{
+  background-color: #548642;
+  border: groove 1x2px #3aa932;
+  cursor: crosshair;
+}
+
+/* .class_name {properties:value;}
+html-element.class_name {properties:value;} */
+
+p.class1{
+  background-color: #daccad;
+  font: monospace 1.3em italic;
+  text-transform: lowercase;
+  cursor: text;
+}
+
+p.class2{
+  background-color: #23438d;
+  border-radius: 30px;
+  cursor: help;
+}
+
+h1{
+  cursor: wait;
+}
