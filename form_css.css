@@ -1,0 +1,19 @@
+.text{
+  border: solid 2px blue;
+  border-radius: 20px;
+}
+
+#sel{
+  background: #da3932;
+  border: 2px groove #accbcd;
+}
+
+.opt{
+  background-color: #ffffff;
+}
+
+
+label{
+  font-size: 1.3em;
+  font-weight: bold;
+}
