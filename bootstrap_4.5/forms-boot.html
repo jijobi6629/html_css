@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>bootstrap forms</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  </head>
+  <body>
+    <form class="" action="index.html" method="post">
+      <label for="email">Email</label>
+      <input type="text" name="email" placeholder="username@mail.com" >
+
+      <label for="passwd">Password:</label>
+      <input type="password" name="passwd" >
+
+      <input type="submit" name="submit" value="Submit">
+    </form>
+
+    <div class="container">
+    <h2>bootstrap form</h2>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="text" name="email" placeholder="username@mail.com" class="form-control">
+        <small class="form-text text-muted">we will never share you email with anyone.</small>
+      </div>
+
+      <div class="form-group">
+        <label for="passwd">Password: </label>
+        <input type="password" name="passwd" class="form-control">
+      </div>
+
+      <div class="form-group form-check">
+        <input type="checkbox" name="check me" value="check me out" class="form-check-input">
+        <label for="check me" class="form-check-label">Check me out</label>
+      </div>
+
+      <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+
+      <div class="form-group">
+        <h2>dropdown list</h2>
+
+        <select class="form-control" name="select1">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <h2>multiple select</h2>
+        <select multiple class="form-control" name="select2">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+    </div>
+
+
+
+
+
+  </body>
+</html>
