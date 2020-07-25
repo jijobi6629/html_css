@@ -58,7 +58,70 @@
           <option value="5">5</option>
         </select>
       </div>
-    </div>
+
+      <h2>file input</h2>
+      <div class="form-group">
+        <label for="exampleFormControlFile1">select file to upload</label>
+        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+      </div>
+
+      <h2>input text size</h2>
+      <div class="form-group">
+        <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg">
+        <input class="form-control" type="text" placeholder="Default input">
+        <input class="form-control form-control-sm" type="text" placeholder=".form-control-sm">
+      </div>
+
+
+      <h2>read only textbox</h2>
+      <input class="form-control" type="text" placeholder="you can't input your text here..." readonly>
+
+
+      <h2>confirm your identity by filling password only</h2>
+      <form>
+        <div class="form-group row">
+          <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword">
+          </div>
+        </div>
+      </form>
+
+
+      <h2>textbox inline</h2>
+      <form class="form-inline">
+        <div class="form-group mb-2">
+          <label for="staticEmail2" class="sr-only">Email</label>
+          <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="username@mailservice.com">
+        </div>
+        <div class="form-group mx-sm-3 mb-2">
+          <label for="inputPassword2" class="sr-only">Password</label>
+          <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+        </div>
+          <button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
+        </form>
+
+
+        <h2>checkbox inline</h2>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+          <label class="form-check-label" for="inlineCheckbox1">1</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+          <label class="form-check-label" for="inlineCheckbox2">2</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" disabled>
+          <label class="form-check-label" for="inlineCheckbox3">3 (disabled)</label>
+        </div>
+      </div>
 
 
 
